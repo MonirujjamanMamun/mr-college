@@ -19,9 +19,8 @@ const Review = ({ collegeId }) => {
             },
             {
               userName: 'Bob Smith',
-              rating: 4,
-              feedback:
-                'Good overall experience but needs improvement in infrastructure.',
+              rating: 5,
+              feedback: 'Good overall experience but needs improvement.',
             },
           ],
         },
@@ -54,10 +53,10 @@ const Review = ({ collegeId }) => {
     <div className="p-6">
       <h2 className="text-2xl font-semibold">Reviews</h2>
       {reviews.length > 0 ? (
-        <ul className="mt-4 space-y-4">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-4">
           {reviews.map((review, index) => (
-            <li key={index} className="p-4 border rounded shadow">
-              <div className="flex items-center">
+            <li key={index} className="p-4 border rounded-lg shadow-lg">
+              <div className="flex items-center justify-between">
                 <h3 className="text-lg font-bold">{review.userName}</h3>
                 <span className="ml-4 text-yellow-500">
                   {'⭐'.repeat(review.rating)}

@@ -9,7 +9,7 @@ const AllReviews = () => {
 
   return (
     <div className="p-6">
-      <h1 className="text-3xl font-bold">College Reviews</h1>
+      <h1 className="text-3xl text-center font-bold">College Reviews</h1>
       {colleges.map((college) => (
         <div key={college.id} className="mt-6">
           <h2 className="text-xl font-semibold">{college.name}</h2>
