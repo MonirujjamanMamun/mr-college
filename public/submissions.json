@@ -1,0 +1,16 @@
+[
+  {
+    "collegeId": 1,
+    "candidateName": "John Doe",
+    "subject": "Computer Science",
+    "email": "john.doe@example.com",
+    "phone": "1234567890",
+    "address": "123 Elm Street, City",
+    "dateOfBirth": "2000-01-01",
+    "image": "https://via.placeholder.com/150",
+    "review": {
+      "rating": 4,
+      "feedback": "Great college with excellent faculty."
+    }
+  }
+]

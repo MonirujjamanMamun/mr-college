@@ -4,12 +4,12 @@ import Flex from '../DeginLayout/Flex';
 import { motion } from 'framer-motion';
 import { HiMenuAlt2 } from 'react-icons/hi';
 import { MdClose } from 'react-icons/md';
+import { logo } from '../../assets/allImage';
+import Image from '../DeginLayout/Images';
 
 const NavBar = () => {
   const [showMenu, setShowMenu] = useState(true);
   const [sidenav, setSidenav] = useState(false);
-  const [category, setCategory] = useState(false);
-  const [brand, setBrand] = useState(false);
   const location = useLocation();
 
   const navItem = [
@@ -47,13 +47,12 @@ const NavBar = () => {
   }, []);
 
   return (
-    <div className="w-full h-20 bg-white sticky top-0 z-50 border-b-[1px] border-b-gray-200">
+    <div className="w-full h-20 bg-gray-200 sticky top-0 z-50 border-b-[1px] border-b-gray-200">
       <nav className="h-full px-4 max-w-container mx-auto relative">
         <Flex className="flex items-center justify-between h-full">
           <Link to="/">
             <div>
-              {/* <Image className="w-28 object-cover" imgSrc={logoDark} /> */}
-              <h2>Mr-College</h2>
+              <Image className="w-28 object-cover rounded-2xl" imgSrc={logo} />
             </div>
           </Link>
           <div>

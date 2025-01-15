@@ -1,7 +1,10 @@
+import CollegeSection from '../../components/Colleges/CollegeSection';
+
 const Colleges = () => {
+  console.log('Colleges page', window.location.pathname);
   return (
     <div>
-      <h1>This is Colleges Component</h1>
+      <CollegeSection />
     </div>
   );
 };

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Green Valley College",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://i.ibb.co.com/0244kv4/versity-1.jpg",
     "admissionDates": "Jan 2025 - Mar 2025",
     "events": ["Orientation", "Cultural Fest", "Alumni Meet"],
     "researchHistory": ["AI Innovations", "Climate Change Studies"],
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Blue Ridge University",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://i.ibb.co.com/K2gCpD4/versity-2.jpg",
     "admissionDates": "Feb 2025 - Apr 2025",
     "events": ["Tech Conference", "Art Expo", "Career Fair"],
     "researchHistory": ["Quantum Computing", "Space Exploration"],
@@ -20,7 +20,34 @@
   {
     "id": 3,
     "name": "Golden State College",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://i.ibb.co.com/yd5k0vz/versity-3.jpg",
+    "admissionDates": "Mar 2025 - May 2025",
+    "events": ["Music Fest", "Drama Night", "Hackathon"],
+    "researchHistory": ["Robotics", "Marine Biology"],
+    "sports": ["Volleyball", "Hockey", "Athletics"]
+  },
+  {
+    "id": 4,
+    "name": "Green Valley College",
+    "image": "https://i.ibb.co.com/0244kv4/versity-1.jpg",
+    "admissionDates": "Jan 2025 - Mar 2025",
+    "events": ["Orientation", "Cultural Fest", "Alumni Meet"],
+    "researchHistory": ["AI Innovations", "Climate Change Studies"],
+    "sports": ["Basketball", "Soccer", "Tennis"]
+  },
+  {
+    "id": 5,
+    "name": "Blue Ridge University",
+    "image": "https://i.ibb.co.com/K2gCpD4/versity-2.jpg",
+    "admissionDates": "Feb 2025 - Apr 2025",
+    "events": ["Tech Conference", "Art Expo", "Career Fair"],
+    "researchHistory": ["Quantum Computing", "Space Exploration"],
+    "sports": ["Baseball", "Swimming", "Cricket"]
+  },
+  {
+    "id": 6,
+    "name": "Golden State College",
+    "image": "https://i.ibb.co.com/0244kv4/versity-1.jpg",
     "admissionDates": "Mar 2025 - May 2025",
     "events": ["Music Fest", "Drama Night", "Hackathon"],
     "researchHistory": ["Robotics", "Marine Biology"],

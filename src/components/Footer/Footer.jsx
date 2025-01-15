@@ -1,16 +1,19 @@
 import { Link } from 'react-router-dom';
+import Image from '../DeginLayout/Images';
+import { logo } from '../../assets/allImage';
 
 const Footer = () => {
   return (
     <footer>
       <div className="bg-gray-700 py-4 text-gray-400">
-        <div className="container px-4 mx-auto">
-          <div className="-mx-4 flex flex-wrap justify-between">
+        <div className="container sm:text-center px-4 mx-auto">
+          <div className="-mx-4 flex flex-wrap justify-between ">
             <div className="px-4 my-4 w-full xl:w-1/5">
               <a href="/" className="block w-56 mb-10">
-                <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4">
+                {/* <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4">
                   Mr-College
-                </h2>
+                </h2> */}
+                <Image className="rounded-md" imgSrc={logo} />
               </a>
               <p className="text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.

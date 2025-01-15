@@ -1,13 +1,15 @@
 [
   {
     "id": 1,
+    "image": "https://i.ibb.co.com/SVfqTqG/rp-1.jpg",
     "title": "AI Innovations in Healthcare",
     "author": "John Doe",
     "year": 2024,
-    "url": "https://example.com/ai-healthcare"
+    "url": "https://www.academia.edu/59315845/First_Cold_Powering_Test_of_REBCO_Roebel_Wound_Coil_for_the_EuCARD2_Future_Magnet_Development_Project"
   },
   {
     "id": 2,
+    "image": "https://i.ibb.co.com/QC1ypvG/rp-2.jpg",
     "title": "Exploring Quantum Computing",
     "author": "Jane Smith",
     "year": 2023,
@@ -15,6 +17,7 @@
   },
   {
     "id": 3,
+    "image": "https://i.ibb.co.com/G2jmQpx/rp-3.jpg",
     "title": "Marine Biology: The Unknown Depths",
     "author": "Robert Brown",
     "year": 2022,
@@ -22,6 +25,7 @@
   },
   {
     "id": 4,
+    "image": "https://i.ibb.co.com/VVDb0nZ/rp-4.png",
     "title": "The Future of Renewable Energy",
     "author": "Emily White",
     "year": 2023,
@@ -29,6 +33,15 @@
   },
   {
     "id": 5,
+    "image": "https://i.ibb.co.com/QC1ypvG/rp-2.jpg",
+    "title": "Advancements in Robotics",
+    "author": "Michael Green",
+    "year": 2024,
+    "url": "https://example.com/robotics"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co.com/SVfqTqG/rp-1.jpg",
     "title": "Advancements in Robotics",
     "author": "Michael Green",
     "year": 2024,

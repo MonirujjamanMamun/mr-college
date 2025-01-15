@@ -23,7 +23,7 @@ const routers = createRoutesFromElements(
       <Route path="/admission" element={<Admission />} />
       <Route path="/my-college" element={<MyCollege />} />
       <Route path="/profile" element={<Profile />} />
-      <Route path="/colleges/:_id" element={<CollegeDetails />} />
+      <Route path="/colleges/:id" element={<CollegeDetails />} />
 
       {/* ==================== Header Navlink End here ===================== */}
       {/* <Route path="/offer" element={<Offer />} />

@@ -7,13 +7,16 @@ const CollegeDetails = () => {
   const { id } = useParams();
   const college = colleges?.find((clg) => clg.id === parseInt(id));
 
-  //   if (!college) return <p> College not found </p>;
   useEffect(() => {
     fetch('/collegeData.json')
       .then((response) => response.json())
       .then((data) => setColleges(data))
       .catch((error) => console.error('Error fetching college data:', error));
   }, []);
+
+  if (!college) {
+    return <p> College not found </p>;
+  }
 
   return (
     <div className="p-6">
