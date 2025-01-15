@@ -1,7 +1,13 @@
+import CollegeSection from '../../components/Colleges/CollegeSection';
+import ImageGallery from '../../components/ImageGallery/ImageGallery';
+import ResearchPapers from '../../components/ResearchPapers/ResearchPapers';
+
 const Home = () => {
   return (
     <div>
-      <h1>This is Home Component</h1>
+      <CollegeSection />
+      <ImageGallery />
+      <ResearchPapers />
     </div>
   );
 };

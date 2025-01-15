@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "url": "https://via.placeholder.com/300x200?text=Group+Photo+1",
+    "description": "Graduates of Green Valley College"
+  },
+  {
+    "id": 2,
+    "url": "https://via.placeholder.com/300x200?text=Group+Photo+2",
+    "description": "Alumni gathering at Blue Ridge University"
+  },
+  {
+    "id": 3,
+    "url": "https://via.placeholder.com/300x200?text=Group+Photo+3",
+    "description": "Annual Day Celebration at Golden State College"
+  },
+  {
+    "id": 4,
+    "url": "https://via.placeholder.com/300x200?text=Group+Photo+4",
+    "description": "Research Team of Green Valley College"
+  },
+  {
+    "id": 5,
+    "url": "https://via.placeholder.com/300x200?text=Group+Photo+5",
+    "description": "Cultural Event at Blue Ridge University"
+  },
+  {
+    "id": 6,
+    "url": "https://via.placeholder.com/300x200?text=Group+Photo+6",
+    "description": "Sports Team of Golden State College"
+  }
+]

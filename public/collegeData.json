@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Green Valley College",
+    "image": "https://via.placeholder.com/150",
+    "admissionDates": "Jan 2025 - Mar 2025",
+    "events": ["Orientation", "Cultural Fest", "Alumni Meet"],
+    "researchHistory": ["AI Innovations", "Climate Change Studies"],
+    "sports": ["Basketball", "Soccer", "Tennis"]
+  },
+  {
+    "id": 2,
+    "name": "Blue Ridge University",
+    "image": "https://via.placeholder.com/150",
+    "admissionDates": "Feb 2025 - Apr 2025",
+    "events": ["Tech Conference", "Art Expo", "Career Fair"],
+    "researchHistory": ["Quantum Computing", "Space Exploration"],
+    "sports": ["Baseball", "Swimming", "Cricket"]
+  },
+  {
+    "id": 3,
+    "name": "Golden State College",
+    "image": "https://via.placeholder.com/150",
+    "admissionDates": "Mar 2025 - May 2025",
+    "events": ["Music Fest", "Drama Night", "Hackathon"],
+    "researchHistory": ["Robotics", "Marine Biology"],
+    "sports": ["Volleyball", "Hockey", "Athletics"]
+  }
+]
